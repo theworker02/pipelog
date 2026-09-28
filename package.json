@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/pipelog",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pipe timestamps and log durations for scripts and CI receipts.",
+  "bin": {
+    "pipelog": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/pipelog.git"
+  },
+  "homepage": "https://theworker02.github.io/pipelog/",
+  "keywords": [
+    "pipe",
+    "log",
+    "time",
+    "cli",
+    "toolkit"
+  ]
+}
